@@ -4,7 +4,7 @@ project(':MyDaoGenerator') {
 
     mainClassName = "pl.surecase.eu.MyDaoGenerator"
     // edit output direction
-    outputDir = "../DaoExample/src/main/java-gen"
+    def outputDir = "../DaoExample/src/main/java-gen"
 
     dependencies {
         compile fileTree(dir: 'libs', include: ['*.jar'])
